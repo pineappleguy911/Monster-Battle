@@ -1,0 +1,63 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(19, 194, 104, 0.671);
+}
+
+#intro-screen {
+    background-image: url('images/background.png');
+    background-color: rgba(52, 44, 34, 0.674);
+    width: 80vw;
+    padding: 20px;
+}
+
+button{
+    background-color: aquamarine;
+    color:blue;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#game-screen{
+    display: none;
+}
+
+#game-board{
+    background-image: url('images/texture20.png');
+    background-size: cover;
+    display: grid;
+}
+
+.cell{
+    width: 50px;
+    height: 50px;
+    border: black;
+}
+
+.wall{
+    background-image: url("images/brickwall.png");
+    background-size: cover;
+}
+
+.player{
+    background-image: url("images/pewpew.png");
+    background-size: cover;
+}
+
+.ghost{
+    background-image: url("images/applesauce.png");
+    background-size: cover;
+}
+
+.bullet{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
